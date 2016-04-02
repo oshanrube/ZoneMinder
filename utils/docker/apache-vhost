@@ -1,3 +1,9 @@
+<Directory /usr/local/share/zoneminder/www>
+        Options Indexes FollowSymLinks
+        AllowOverride None
+        Require all granted
+</Directory>
+
 <VirtualHost *:80>
         DocumentRoot /usr/local/share/zoneminder/www
         DirectoryIndex index.php
